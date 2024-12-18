@@ -1,0 +1,12 @@
+
+@font-face {
+    font-family: "Comic Gecko Pro";
+    src: url("/fonts/Comic Gecko Pro.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.font{
+    font-family: 'Comic Gecko Pro', sans-serif;
+    }
+    
