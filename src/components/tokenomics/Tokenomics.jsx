@@ -5,7 +5,7 @@ import person from "../../assets/icons/person.png";
 
 const Tokenomics = () => {
   return (
-    <div className="bg-green-800">
+    <div className="bg-[#1F7723]">
       <h1 className=" text-white font text-2xl md:text-2xl font-bold mb-6 text-center">
         TOKENOMICS
       </h1>
@@ -15,8 +15,8 @@ const Tokenomics = () => {
       </p>
 
       <div className="grid grid-cols-4 gap-x-2 relative">
-        <div className="flex justify-center">
-          <img src={frogglass} width="106px" height="80px" alt="frogIMG" 
+        <div className="flex justify-end">
+          <img src={frogglass} width="200px" height="20px" alt="frogIMG" 
  />
         </div>
         <div className="col-span-2">

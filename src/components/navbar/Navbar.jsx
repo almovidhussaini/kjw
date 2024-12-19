@@ -5,8 +5,8 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className="bg-green-800 p-7">
-    <nav className="bg-green-700 px-6 py-4 flex items-center justify-between w-[90%] mx-auto pt-2">
+    <div className="bg-[#1F7723] p-7">
+    <nav className="bg-[#209326] px-6 py-4 flex items-center justify-between w-[90%] mx-auto pt-2">
       {/* Left Section: Logo */}
       <div className="flex items-center">
         <img
@@ -17,7 +17,7 @@ const Navbar = () => {
       </div>
 
       {/* Middle Section: Menu Items (Desktop) */}
-      <ul className="hidden md:flex space-x-8 text-black font-medium">
+      <ul className="hidden md:flex space-x-8 text-black font-medium mt-1">
         <li className="hover:text-gray-700 cursor-pointer">About Us</li>
         <li className="hover:text-gray-700 cursor-pointer">Tokenomics</li>
         <li className="hover:text-gray-700 cursor-pointer">Roadmap</li>

@@ -5,9 +5,9 @@ import "../style/welcome.css";
 
 const Welcome = () => {
   return (
-    <div className=" bg-green-800 grid grid-cols-3 md:grid-cols-5">
-      <div className=" col-span-3 pl-9 sm:col-span-4 md:col-span-3 flex justify-center  flex-col ">
-        <div className="">
+    <div className=" bg-[#1F7723] grid grid-cols-3 md:grid-cols-5">
+      <div className=" col-span-3 pl-9 sm:col-span-4 md:col-span-3 flex justify-center  flex-col xl:pl-40 ">
+        <div className="  ">
           <h1 className="font font-bold text-[40px] sm:text-[60px] md:text-[90px] leading-none tracking-normal text-white whitespace-nowrap">
             Welcome to{" "}
           </h1>
@@ -43,8 +43,8 @@ const Welcome = () => {
           </button>
         </div>
       </div>
-      <div className=" col-span-3 md:col-span-2 flex justify-center items-center h-full">
-        <img src={chineLeader} alt="image" width="250px" height="410px" />
+      <div className=" col-span-2 md:col-span-2 flex justify-start items-center pl-16 ">
+        <img src={chineLeader} alt="image" width="250px" height="310px" />
       </div>
     </div>
   );
